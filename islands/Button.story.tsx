@@ -1,5 +1,5 @@
-import { Button } from "../../components/Button.tsx";
-import ColoredButton from "../ColoredButton.tsx";
+import { Button } from "../components/Button.tsx";
+import ColoredButton from "./ColoredButton.tsx";
 
 export default function Stories() {
   return (

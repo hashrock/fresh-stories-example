@@ -7,9 +7,9 @@ import * as $_app from "./routes/_app.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $Button_story from "./islands/Button.story.tsx";
 import * as $ColoredButton from "./islands/ColoredButton.tsx";
 import * as $Counter from "./islands/Counter.tsx";
-import * as $stories_Button_story from "./islands/stories/Button.story.tsx";
 import * as $stories_Footer_story from "./islands/stories/Footer.story.tsx";
 import * as $stories_Header_story from "./islands/stories/Header.story.tsx";
 import * as $stories_Hero_story from "./islands/stories/Hero.story.tsx";
@@ -24,9 +24,9 @@ const manifest = {
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/Button.story.tsx": $Button_story,
     "./islands/ColoredButton.tsx": $ColoredButton,
     "./islands/Counter.tsx": $Counter,
-    "./islands/stories/Button.story.tsx": $stories_Button_story,
     "./islands/stories/Footer.story.tsx": $stories_Footer_story,
     "./islands/stories/Header.story.tsx": $stories_Header_story,
     "./islands/stories/Hero.story.tsx": $stories_Hero_story,
