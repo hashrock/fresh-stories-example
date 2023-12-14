@@ -1,8 +1,7 @@
 import { defineConfig } from "$fresh/server.ts";
 import tailwind from "$fresh/plugins/tailwind.ts";
-import storiesPlugin from "https://deno.land/x/fresh_stories@0.0.5/stories-plugin.ts";
-// import storiesPlugin from "../fresh-stories/stories-plugin.ts";
+import storiesPlugin from "https://deno.land/x/fresh_stories@0.0.11/stories-plugin.ts";
 
 export default defineConfig({
-  plugins: [tailwind(), storiesPlugin()],
+  plugins: [storiesPlugin(), tailwind()],
 });
